@@ -1,22 +1,18 @@
 # Docker, NGINX, PHP-FPM, PostgreSQL, 
 
-This is a simple logs collector for the dev environment
+Docker infrastructure for symfony web aplication
 
-For example, we have a website (https://localhost/index.php)
+build:
 ```
-/var/www/html/index.php
+docker-compose up --build
 ```
-and we want to see logs in a new bookmark (https://localhost/logs.php)
 
-How to set up it? First of all, need config NGINX (version for apache will be a letter) 
+up:
+```
+docker-compose up
+```
 
-NGINX config file: 
+down:
 ```
-location ~ /logs.php {
-    include         fastcgi_params;
-    root            /var/www/html/;
-    fastcgi_pass    unix:/var/run/php/php7.2-fpm.sock;
-    fastcgi_param   SCRIPT_FILENAME  /var/www/html/logs.php;
-}
+docker-compose down
 ```
-then put logs.php into 
