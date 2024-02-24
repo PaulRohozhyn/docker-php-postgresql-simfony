@@ -1,4 +1,3 @@
-
 # Docker, NGINX, PHP-FPM, PostgreSQL, 
 
 This is a simple logs collector for the dev environment
