@@ -18,4 +18,4 @@ docker-compose down
 ./app - its project files folder
 
 # Exemles
-![alt text](https://github.com/[devrohozhyn]/[docker-php-postgresql-simfony/]/blob/[main]/image1.jpg?raw=true)
+![alt text](https://github.com/[devrohozhyn]/[docker-php-postgresql-simfony/]/blob/[main]/image1.png?raw=true)
